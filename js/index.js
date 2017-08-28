@@ -25,7 +25,7 @@
     }
 
     function getImgUrl(code) {
-        return `https://weixin.jirengu.com/images/weather/code/${code}.png`;
+        return `${HOST}/images/weather/code/${code}.png`;
     }
 
     function setupTime() {
